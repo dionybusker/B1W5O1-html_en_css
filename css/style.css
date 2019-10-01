@@ -1,31 +1,3 @@
-/* font-family: 'Roboto', sans-serif; */
-
-/* normale teksten font-size: 20px */
-/* normale teksten lijnhoogte: 26px */
-
-/* hoofdtitel font-size: 36px */
-/* hoofdtitel lijnhoogte: 36px */
-
-/* 1e paragraaf na hoofdtitel font-size: 24px */
-/* 1e paragraaf na hoofdtitel lijnhoogte: 32px */
-
-/* andere titels font-size: 32px */
-/* andere titels lijnhoogte: 32px */
-
-/* ruimte tussen verschillende content: 40px */
-
-/* ingrediënten ruimte tussen elkaar: 10px */
-
-/* verschillende stappen bereidingswijze ruimte tussen elkaar: 20px */
-
-/* tip achtergrond: #def6ed */
-/* tip border-radius: 4px */
-/* tip paragraaf ten minste 25px van de rand af */
-
-/* menu voor elke pagina */
-
-/*  voorgerecht en nagerecht eigen invulling */
-
 html, body {
     margin: 0;
     padding: 0;
@@ -50,6 +22,35 @@ h1 {
     line-height: 32px;
 }
 
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.ingredienten, .bereidingswijze {
+    margin: 20px 0;
+}
+
+.ingredienten li {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.bereidingswijze li {
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
 .tip {
     font-size: 24px;
+    background-color: #DEF6ED;
+    border-radius: 4px;
+}
+
+.tip p {
+    padding: 25px;
+    font-size: 20px;
+    line-height: 26px;
 }
