@@ -7,9 +7,9 @@ html, body {
 
 .main {
     margin: 0 auto;
-    width: 840px;
+    width: 950px;
     background-color: white;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 h1 {
@@ -53,4 +53,8 @@ h2 {
     padding: 25px;
     font-size: 20px;
     line-height: 26px;
+}
+
+img {
+    width: 75%;
 }
